@@ -48,7 +48,7 @@
                     <h3>About Me</h3>
                     <p>
                       Born in Chongqing China 1993, started out programming at
-                      age of fourteen, currently I am a compiler engineer at Barefoot Networks (Intel).
+                      age of 14, currently I am a compiler engineer at Barefoot Networks (Intel).
                     </p>
                     <p>
                       I got my master degree of computer science at <a
@@ -59,10 +59,10 @@
                         Laboratory</a> led by <a
                         href="http://www.cs.ucla.edu/~lixia/">Professor Lixia
                         Zhang</a>,
-                      especially in doing research of computer network and
-                      distributied system, which
-                      I worked on a Domain Name Service for Named Data
-                      Networking(NDNS). Check it out <a
+                      especially in researching computer network and
+                      distributied system.
+                      I have worked on a Domain Name Service (DNS) for Named Data
+                      Networking (NDNS). Check it out <a
                         href="https://github.com/named-data/ndns"><strong>here</strong></a>.
                     </p>
                     <p>Formerly, I received a B.Eng in computer science at <a
@@ -70,8 +70,8 @@
                       While being there. I won a Silver medal of ACM-ICPC Asia
                       regional Guangzhou site 2014 as the captain of team
                       'StRcPy'. Besides, I co-founded <a
-                        href="http://perksummit.com/">PerkSummit®</a>, which is
-                      now one of the most influential extra-curricular activity
+                        href="http://perksummit.com/">PerkSummit®</a>, which was
+                      one of the most influential extra-curricular activity
                       in southwestern China.</p>
                   </div>
                   <div class="content-block">
@@ -110,22 +110,25 @@
                     <div class="row">
                       <div class="col-10">
                         <strong>
-                          Barefoot Networks (Intel), Compiler Team
+                          Barefoot Networks (acquired by Intel), Compiler Team
                           <br />
-                          Software Engineering
+                          Staff Engineer
                           <br />
                           Santa Clara, California, USA
                           <br />
                         </strong>
                         <ul>
-                          <li>
-                            Algorithm design and implementation for a P4 Compiler of Tofino™ series,
-                            the fastest P4-programmable switch chips.
-                          </li>
+                            <li>
+                                Designed the Packet Header Vector (PHV) allocation algorithm of Intel’s P4 compiler for Tofino™ series (the fastest
+                                P4-programmable switch chips).
+                            </li>
+                            <li>
+                                Built an action constraints solver that is several orders of magnitude faster than directly modeling the problem in Z3.
+                            </li>
                         </ul>
                       </div>
                       <div class="col-2">
-                        Feb. 2020 – Present
+                        Nov. 2017 – Jun. 2018; Feb. 2020 – present
                       </div>
                     </div>
 
@@ -133,7 +136,7 @@
                     <div class="row">
                       <div class="col-10">
                         <strong>
-                          Lino Network, Blockchain Team
+                          Lino Network (acquired by TRON), Blockchain Team
                           <br />
                           Software Engineering, Tech Lead
                           <br />
@@ -148,15 +151,16 @@
                             (3) implementation of modules: price feeding, donation, developer/IDA, etc.
                           </li>
                           <li>
-                            Fullstack developer of <a href="https://dlive.tv/">DLive.tv</a>, the <a href="https://www.dapp.com/">top#1 DApp </a>.
-                            Backend: a payment queue service that executes blockchain-related transactions. It can merge similar transactions and ensures that one transaction will be delivered only once, and all failures are recorded (2-PC).
+                            Fullstack developer of <a href="https://dlive.tv/">DLive.tv</a>, the <a href="https://www.dapp.com/">top#1 DApp in 2019 </a>.
+                              Backend: a payment queue service that executes blockchain-related transactions.
+                              It can merge similar transactions and ensures that one transaction will be delivered only once, and all failures are recorded (2-PC).
                             Frontend: livestream player, misc components.
                           </li>
                           <li>
-                            Developer of the DLive livestream solution. Design and implementation of RTMP server optimization, transcoding scheduler, and low-latency HLS solution(http trunk transfer).
+                            Developer of the DLive livestream solution. Design and implementation of RTMP server optimization, transcoding scheduler, and low-latency HLS solution(HTTP chunked transfer).
                           </li>
                           <li>
-                            An open source project <a href="https://github.com/Stumble/needle">Needle</a>: It takes an XML configuration as input, and generates idiomatic golang codes of a multi-level-cached data access layer built on MySQL, Redis and memory cache.
+                            An open source project <a href="https://github.com/Stumble/needle">Needle</a>: It generates idiomatic golang codes of a multi-level-cached data access layer built on MySQL, Redis and memory cache.
                             It does syntax and type checks on MySQL statements and all generated codes are type-safe.
                             In production, it handles 100K+ QPS easily, with only several lines of configuration of SQL statements and cache policy.
                           </li>
@@ -167,30 +171,6 @@
                       </div>
                       <div class="col-2">
                         Jun. 2018 – Feb. 2020
-                      </div>
-                    </div>
-
-                    <!-- Barefoot -->
-                    <div class="row">
-                      <div class="col-10">
-                        <strong>
-                          Barefoot Networks(acquired by Intel), Compiler Team
-                          <br />
-                          Software Engineering
-                          <br />
-                          Santa Clara, California, USA
-                          <br />
-                        </strong>
-                        <ul>
-                          <li>
-                            Algorithm design and implementation of a P4 compilerforthe fastest programmable switch on earth. Major contributions:
-                            (1) a heuristic algorithm of PHV (Packet Header Vector) allocation. (2) parserregister allocation. (3) P4 metadata
-                            initialization algorithm.
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="col-2">
-                        Nov. 2017 – Jun. 2018
                       </div>
                     </div>
 
@@ -338,35 +318,16 @@
                       <div class="col-10">
                         <ul>
                           <li> <a href="https://github.com/Stumble/TrustCoq">TrustCoq</a>:
-                            Using machine-checked formal verification
-                            technique(Coq) to proof termination on a
-                            domain-specific language. The language describes the
-                            security schema of NDN applications. Specifically,
-                            this project formally proofs that, as long as a
-                            policy, described in this language, can pass the
-                            termination check, it will terminate after finite
-                            steps.
+                              Using machine-checked formal veriﬁcation technique (Coq) to proof termination on a domain-speciﬁc
+                              language. The language describes the security schema of NDN applications. Speciﬁcally, this project formally
+                              proofed that, as long as a policy, described in this language, can pass the termination check, it will terminate in a
+                              ﬁnite number of steps.
                           </li>
                           <li><a href="https://github.com/Stumble/duck">DUCK</a>:
-                            a dynamic universal software system visualization
-                            kit. This tool execute syntactical analysis on
-                            source code to produce interactive query-able
-                            figures to help programmer understand the software
-                            structure. The query-able interative feature
-                            addresses the scalability issue of visulization by
-                            letting user specify the what they want. Currently,
-                            C++ are supportted, based on libclang.</li>
-                          <li><a href="https://github.com/Stumble/smartGG">Smart
-                              Gas Guardian</a>: a smart home device prototype
-                            that could automatically adjust house’s moisture and
-                            temperature, detect hazardous gases using MQ series
-                            sensor, and send alert message to user’s phone if an
-                            emergency happens, using Raspberry Pi as gateway,
-                            connected to devices via Bluetooth. </li>
+                              A dynamic universal software system visualization kit. It can run a syntactical analysis on source code to produce interactive figures to help programmer understand the software structure. Figures can be dynamically configured, which addresses the scalability issue of visualization by letting user specify the what they want to focus. Currently, only C++ is supported, using libclang.</li>
                         </ul>
                       </div>
                     </div>
-
                   </div>
                 </div>
               </div>
